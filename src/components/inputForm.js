@@ -13,7 +13,7 @@ class InputForm extends React.Component {
   }
 
   uploadFileHandler = () => {
-    
+    axios.post('');
   }
   render() {
     return (

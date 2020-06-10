@@ -1,15 +1,14 @@
 import React from 'react';
-import InputForm from './components/inputForm'
+import InputForm from './components/InputForm'
 import './App.css';
+import Header from './components/Header'
 
 function App() {
   
   return (
     <div className="App">
-      <header className="App-header">
-        <h3>Tim's soccer storage</h3>
+        <Header />
         <InputForm />
-      </header>
     </div>
   );
 }
